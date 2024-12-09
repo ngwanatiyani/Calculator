@@ -12,8 +12,8 @@ nav {
     width: 100%; 
     position: fixed; 
     top: 0; 
-    left: 0; /* Align to the left */
-    z-index: 1000; /* Make sure it stays above other content */
+    left: 0; 
+    z-index: 1000; 
 }
 
 .nav-tabs {
@@ -40,18 +40,6 @@ nav {
     color: #f1f1f1;
 }
 
-.image-container {
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Maximum width */
-    margin: 20px auto; /* Centering */
-    padding: 20px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.3); /* Glass effect */
-    backdrop-filter: blur(15px); /* Glass effect */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Glow effect */
-    overflow: hidden; /* Prevent overflow */
-}
-
 
 #container {
     width: 100%; 
@@ -67,7 +55,7 @@ nav {
     margin-left: 350px;
     margin-top: 5%;
     border-radius: 8px;
-    background-color: #3A6186; /* Different background color for calculator */
+    background-color: #3A6186; /* color for the calculator */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -97,9 +85,9 @@ button:hover {
 
 #result {
     width: 100%;
-    margin: 20px 0; /* Adjusted margin */
+    margin: 20px 0; 
     padding: 10px 0;
-    font-size: 16px; /* Increased font size for better readability */
+    font-size: 16px; 
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #f1f1f1;
