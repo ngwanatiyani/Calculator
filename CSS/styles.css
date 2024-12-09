@@ -9,9 +9,9 @@ body {
 nav {
     background-color: #3A6186;
     padding: 10px 0;
-    width: 100%; /* Make the nav full width */
-    position: fixed; /* Fix the nav at the top */
-    top: 0; /* Align to the top */
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
     left: 0; /* Align to the left */
     z-index: 1000; /* Make sure it stays above other content */
 }
@@ -52,10 +52,7 @@ nav {
     overflow: hidden; /* Prevent overflow */
 }
 
-.image-container img {
-    width: 100%; /* Responsive image */
-    border-radius: 10px; /* Round the image corners */
-}
+
 #container {
     width: 100%; 
     display: flex; 
