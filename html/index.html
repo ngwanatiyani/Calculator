@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with Trigonometric Functions</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <nav>
+        <ul class="nav-tabs">
+            <li><a href="index.html">Home</a></li>
+           
+        </ul>
+    </nav>
+
+</head>
+<body>
+
+
+    
+    <section id="calculator">
+        <input type="text" id="display" disabled placeholder="0" />
+        <br>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="setOperator('/')">/</button>
+        <br>
+
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="setOperator('*')">*</button>
+        <br>
+
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="setOperator('-')">-</button>
+        <br>
+
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="setOperator('+')">+</button>
+        <br>
+
+        <button onclick="calculateTrig('sin')">Sin</button>
+        <button onclick="calculateTrig('tan')">Tan</button>
+        <button onclick="calculateTrig('cos')">Cos</button>
+        <button onclick="calculateTrig('asin')">Asin</button>
+        <br>
+
+        <button onclick="calculateTrig('acos')">Acos</button>
+        <button onclick="calculateTrig('atan')">Arctan</button>
+        <button onclick="calculatePercent()">%</button>
+        <button onclick="clearDisplay()">C</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
