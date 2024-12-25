@@ -12,13 +12,3 @@ Percentage Calculation: Easily find percentages of numbers.
 Clear Function: Reset the calculator to start fresh.
 
 
-### Installation 🚀
-
-Clone the repository and open the HTML file in your preferred web browser to start using the calculator!
-
-bash
-
-Copy
-git clone https://github.com/yourusername/simple-calculator.git
-cd simple-calculator
-open index.html
