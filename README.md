@@ -5,7 +5,9 @@ Welcome to the Simple Calculator Program! This JavaScript-based calculator provi
 
 Features ✨
 
-### Basic Operations: Add, subtract, multiply, and divide numbers.
+### Basic Operations:
+
+Add, subtract, multiply, and divide numbers.
 ### Trigonometric Functions: Calculate sine, cosine, tangent, and their inverses.
 
 Percentage Calculation: Easily find percentages of numbers.
